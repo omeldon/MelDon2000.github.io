@@ -1,15 +1,13 @@
-
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
-
 
 h1,
 h2,
 h4,
 h5,
 h6 {
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
 h3 {
   color: #ffffff;
@@ -92,7 +90,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .paralax-mf {
@@ -168,7 +166,7 @@ a:hover {
 }
 
 .title-left:before {
-  content: '';
+  content: "";
   position: absolute;
   height: 3px;
   background-color: #0078ff;
@@ -178,21 +176,27 @@ a:hover {
 
 /*------/ Box /------*/
 
-
 .borderex {
-  
-  background-image:linear-gradient(to right, #09C6F9, #0078ff);
-  border-width:2px;
-  border-style:solid;
-  border-color:#1B1B1B;
-  box-shadow: inset 0 0 0 0 #54b3d6;
-  color: black;
-  margin: 0 -.25rem;
-  padding: 0.3rem 0.3rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  background-image: linear-gradient(to right, #09c6f9, #0078ff);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid transparent;
+    border-radius: 7px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .borderex:hover {
-  box-shadow: inset 150px 0 0 0 lightseagreen;
+  box-shadow: inset 170px 0 0 0 lightseagreen;
   color: white;
 }
 .box-pl2 {
@@ -300,7 +304,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   width: 25px;
 }
 
@@ -317,7 +321,7 @@ a:hover {
   width: 42px;
   height: 42px;
   background-color: #0078ff;
-  opacity: .7;
+  opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
@@ -410,7 +414,7 @@ a:hover {
 ======================================*/
 
 .navbar-b {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
@@ -436,7 +440,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:before,
 .navbar-b.navbar-reduce .nav-link:before {
-  content: '';
+  content: "";
   position: absolute;
   margin-left: 0px;
   width: 0%;
@@ -448,7 +452,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: #1b1b1b;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -483,8 +487,8 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce {
-  transition: all .5s ease-in-out;
-  background-image: linear-gradient(to right, #09C6F9, #045DE9);
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(to right, #09c6f9, #045de9);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -513,7 +517,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 
 .navbar-b .navbar-brand {
@@ -536,7 +540,7 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item {
-  padding: .7rem 1.7rem;
+  padding: 0.7rem 1.7rem;
   transition: all 500ms ease;
 }
 
@@ -576,9 +580,9 @@ a:hover {
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: -webkit-transform .35s ease-in-out;
-  transition: transform .35s ease-in-out;
-  transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
+  transition: -webkit-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
@@ -628,7 +632,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .intro .intro-title {
@@ -699,13 +703,13 @@ a:hover {
 
 .skills-mf .progress {
   background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
+  margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
-  height: .7rem;
+  height: 0.7rem;
 }
 
 .skills-mf .progress .progress-bar {
-  height: .7rem;
+  height: 0.7rem;
   background-color: #0078ff;
 }
 
@@ -741,13 +745,12 @@ a:hover {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
-  padding: .4rem 0;
+  padding: 0.4rem 0;
 }
 
 .skills-box .s-description {
   color: #4e4e4e;
 }
-
 
 /*======================================
 //--//-->   GALLERY
@@ -780,7 +783,7 @@ a:hover {
 
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .work-content .w-more .w-ctegory {
@@ -798,74 +801,73 @@ a:hover {
 }
 
 .work-content .w-like .num-like {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .w-title {
   font-size: 1.2rem;
 }
 
-
 /*======================================
 //--//-->   RESUME
 ======================================*/
 .resume {
-    position: relative;
-    padding: 45px 0 15px 0;
+  position: relative;
+  padding: 45px 0 15px 0;
 }
 
 .resume .timeline {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .resume .timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background: #ADD8E6;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: #add8e6;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
 }
 
 .resume .timeline .timeline-item {
-    position: relative;
-    background: inherit;
-    width: 50%;
-    margin-bottom: 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+  margin-bottom: 30px;
 }
 
 .resume .timeline .timeline-item.left {
-    left: 0;
-    padding-right: 30px;
+  left: 0;
+  padding-right: 30px;
 }
 
 .resume .timeline .timeline-item.right {
-    left: 50%;
-    padding-left: 30px;
+  left: 50%;
+  padding-left: 30px;
 }
 
 .resume .timeline .timeline-item::after {
-    content: '';
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 48px;
-    right: -8px;
-    background: #ffffff;
-    border: 2px solid #0000FF;
-    border-radius: 16px;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 48px;
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #0000ff;
+  border-radius: 16px;
+  z-index: 1;
 }
 
 .resume .timeline .timeline-item.right::after {
-    left: -8px;
+  left: -8px;
 }
 
 .resume .timeline .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 0;
@@ -882,106 +884,104 @@ a:hover {
 }
 
 .resume .timeline .timeline-date {
-    position: absolute;
-    width: 100%;
-    top: 44px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #0000FF;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 44px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0000ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
 }
 
 .resume .timeline .timeline-item.left .timeline-date {
-    text-align: left;
-    left: calc(100% + 55px);
+  text-align: left;
+  left: calc(100% + 55px);
 }
 
 .resume .timeline .timeline-item.right .timeline-date {
-    text-align: right;
-    right: calc(100% + 55px);
+  text-align: right;
+  right: calc(100% + 55px);
 }
 
 .resume .timeline .timeline-text {
-    padding: 30px;
-    background: #ffffff;
-    position: relative;
-    border-right: 5px solid #dddddd;
-    box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+  padding: 30px;
+  background: #ffffff;
+  position: relative;
+  border-right: 5px solid #dddddd;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
 }
 
 .resume .timeline .timeline-item.right .timeline-text {
-    border-right: none;
-    border-left: 5px solid #dddddd;
+  border-right: none;
+  border-left: 5px solid #dddddd;
 }
 
 .resume .timeline .timeline-text h2 {
-    margin: 0 0 5px 0;
-    font-size: 22px;
-    font-weight: 600;
+  margin: 0 0 5px 0;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .resume .timeline .timeline-text h4 {
-    margin: 0 0 10px 0;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .resume .timeline .timeline-text p {
-    margin: 0;
-    font-size: 16px;
+  margin: 0;
+  font-size: 16px;
 }
 
 @media (max-width: 767.98px) {
-    .resume .timeline::after {
-        left: 8px;
-    }
+  .resume .timeline::after {
+    left: 8px;
+  }
 
-    .resume .timeline .timeline-item {
-        width: 100%;
-        padding-left: 38px;
-    }
-    
-    .resume .timeline .timeline-item.left {
-        padding-right: 0;
-    }
-    
-    .resume .timeline .timeline-item.right {
-        left: 0%;
-        padding-left: 38px;
-    }
+  .resume .timeline .timeline-item {
+    width: 100%;
+    padding-left: 38px;
+  }
 
-    .resume .timeline .timeline-item.left::after, 
-    .resume .timeline .timeline-item.right::after {
-        left: 0;
-    }
-    
-    .resume .timeline .timeline-item.left::before,
-    .resume .timeline .timeline-item.right::before {
-        left: 18px;
-        border-color: transparent #dddddd transparent transparent;
-    }
-    
-    .resume .timeline .timeline-item.left .timeline-date,
-    .resume .timeline .timeline-item.right .timeline-date {
-        position: relative;
-        top: 0;
-        right: auto;
-        left: 0;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-    
-    .resume .timeline .timeline-item.left .timeline-text,
-    .resume .timeline .timeline-item.right .timeline-text {
-        border-right: none;
-        border-left: 5px solid #dddddd;
-    }
+  .resume .timeline .timeline-item.left {
+    padding-right: 0;
+  }
+
+  .resume .timeline .timeline-item.right {
+    left: 0%;
+    padding-left: 38px;
+  }
+
+  .resume .timeline .timeline-item.left::after,
+  .resume .timeline .timeline-item.right::after {
+    left: 0;
+  }
+
+  .resume .timeline .timeline-item.left::before,
+  .resume .timeline .timeline-item.right::before {
+    left: 18px;
+    border-color: transparent #dddddd transparent transparent;
+  }
+
+  .resume .timeline .timeline-item.left .timeline-date,
+  .resume .timeline .timeline-item.right .timeline-date {
+    position: relative;
+    top: 0;
+    right: auto;
+    left: 0;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .resume .timeline .timeline-item.left .timeline-text,
+  .resume .timeline .timeline-item.right .timeline-text {
+    border-right: none;
+    border-left: 5px solid #dddddd;
+  }
 }
-
-
 
 /*------/ Sidebar /------*/
 
@@ -1026,8 +1026,8 @@ a:hover {
 .widget-tags ul li {
   display: inline-block;
   background-color: #0078ff;
-  padding: .2rem .6rem;
-  margin-bottom: .5rem;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.5rem;
   border-radius: 15px;
 }
 
@@ -1058,7 +1058,7 @@ footer {
 }
 
 footer .copyright {
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 footer .credits {
@@ -1113,7 +1113,7 @@ footer .credits a {
 
 .button {
   display: inline-block;
-  padding: .3rem .6rem;
+  padding: 0.3rem 0.6rem;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -1121,7 +1121,7 @@ footer .credits a {
   -ms-user-select: none;
   user-select: none;
   font-size: 1rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   border: 1px solid transparent;
   transition: all 500ms ease;
   cursor: pointer;
@@ -1144,7 +1144,7 @@ footer .credits a {
 }
 
 .button-big {
-  padding: .9rem 2.3rem;
+  padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
 }
 
@@ -1153,10 +1153,10 @@ footer .credits a {
 }
 
 .btn-lg {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 @media (min-width: 577px) {
